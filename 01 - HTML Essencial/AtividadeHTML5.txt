@@ -1,0 +1,45 @@
+Atividade HTML Essencial
+
+Explicando os seguintes elementos aprendidos até o momento:
+
+1) HTML5 - ESTRUTURA BÁSICA:
+<!Doctype html>
+<html lang=”pt-br”>
+<head>
+<meta charset=”UTF-8”>
+</head>
+<body>
+</body>
+<html>
+
+2) HTML5 - SEMÂNITICA
+<header> = seções de cabeçalho
+<footer> = representa um rodapé
+<a> = descreve um link, conectando os diversos documentos de um site e permitindo a navegação desse conteúdo
+
+3) CSS3 - SELETORES
+Linkar o CSS no html5: 
+<link rel="stylesheet" týpe="text/css" href="Estilo.css">
+
+No html:
+<body > 
+<h1> Olá Bolo </h1>
+
+No css: 
+h1 {	color: blue ; 
+	padding-left: 450px  ;
+	font-size: 20px; }
+
+CSS - Seletores no CSS:
+Seletor de classe com id:
+  #Larissa { Alguma coisa… }
+Seletor com classe:
+No html:
+ class=”Larissa”
+
+No CSS:
+ 	.Larissa { color: purple} 
+
+Seletor com tag:
+Corresponde a todos elementos que correspondem ao nome fornecido
+Exemplo: O h1 corresponderá a qualquer elemento presente no < h1 > 
