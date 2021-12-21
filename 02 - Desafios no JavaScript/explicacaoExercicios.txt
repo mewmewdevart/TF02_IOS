@@ -1,0 +1,18 @@
+Desafio 1 - Criar uma página que mostre um alerta "Olá Mundo"
+
+Desafio 2 - Criar uma página que Solicite um Nome e depois mostre - Prompt
+"Bem vindo Nome da pessoa"
+
+Desafio 3 - Criar uma página que solicite 2 números e depois mostre a soma dos dois números.
+Depois: Subtração, Multiplicação e Divisão
+
+Semi-Final - Criar uma página que solicite um número e mostre se é Par ou ímpar!
+
+Desafio FINAL
+Pegar 3 Números
+e Colocá-los em ordem crescente
+
+Extra 1 - Média de 3 notas e mostrar situação
+
+Extra 2 - Fazer um menu que navega entre os desafios
+e estilizar com CSS.
