@@ -1,0 +1,111 @@
+body {
+  background-image: url("imagens/fundo.png");
+ background-attachment:fixed;
+background-size:100%;
+background-repeat:no-repeat;
+background-color:rgb(242, 242, 242);
+ font-family: 'Bitter', serif;
+ color: black;
+}
+
+
+
+/* Cor do Botoes  */
+.btn{ 
+font-size: 1.25rem;
+
+ }
+.btn-default {
+ background-color: rgb(77, 175, 183);
+color:#FFF;
+
+  }
+.btn{
+  background-color: rgb(77, 175, 183);
+}
+/* Menu Navbar Fixado  */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index:99;
+}
+/* suposto botãao com acessibilidade  */
+.butaozinho{
+  position: fixed;
+  top: 11%;
+  left: 95%;
+  right: 0;
+  z-index:99;
+  
+}
+.iconzinho{
+  position: fixed;
+  top: 11%;
+  left: 94%;
+  right: 0;
+  z-index:99;
+  width: 90px;
+  height: 30px;   background-color: rgb(77, 175, 183); border-radius: 5%;
+}
+
+//Tamanho da Letra
+p{ font-size: 20px; }
+
+/* image do surdo ( acessibilidade ) - Universal  */
+.imgsurdo{
+position: fixed;
+ padding-top: 25px;
+z-index:99;
+left:95%;
+  top:50%;
+}
+
+
+/* Pertence a todas as paginas de cursos */
+.retangulo{
+ width: 195px;
+    height: 45px;
+    background: rgb(242, 242, 242);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{ 
+font-size:18px;
+ }
+h2{
+padding-top: 10px;
+font-size:18px;
+}
+.jumbotron{
+background-color:rgb(118, 190, 194);
+}
+
+
+
+
+/* Famoso Footer  */
+footer{
+ background-color: rgb(77, 175, 183);}
+a { color:white;
+font-size:15px;
+ }
+h1{ font-size:15px;
+color:white; }
+h4{ font-size:18px;
+color:white; }
+h5{ font-size: 18px;
+color:white;
+font-weight: bold }
+
+
+
+ @media (min-width: 576px) {
+  .meiodoinicio {
+    margin-bottom: -30px;
+  }
+
+
+/* Essa parte é dos cursos */

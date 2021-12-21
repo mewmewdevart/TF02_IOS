@@ -1,0 +1,71 @@
+/* Essa folha de estilo, pertence a aba de todos os cursos! */
+
+
+/* Container de Todos os Cursos */
+.containerazul{ 
+ background-color:  rgb(113,  191, 197);
+ width: 275px;
+float:left;
+border-radius: 15px;
+ }
+
+/* Imagem do Computador */
+.iconcomputer img{
+  width: 110px;
+position: absolute;
+left:30%;
+  top:25%;
+}
+
+/* Imagem do Violão */
+.iconviolao img{
+  width: 110px;
+position: absolute;
+left:45%;
+  top:25%;
+}
+
+/* Imagem do Humano */
+.iconhumano img{
+  width:110px;
+position: absolute;
+left:60%;
+  top:35%;
+
+}
+
+/* Imagem Decorativo */
+.icondecorativo img{ width:500px;
+border-radius: 40%;
+position: relative;
+left:-30%;
+  top:50%;
+z-index:1; }
+
+/* Essa parte é parte que mostra todos os cursos */
+
+.cursos { border-radius: 15px;
+background-color: white;
+font-size:20px;
+
+}
+
+
+a { color:white;
+font-size:18px;
+}
+
+a:link {text-decoration:none; } 
+
+
+p { 
+font-size:18px;
+}
+li { list-style-type: none;
+	color: black;
+	font-size:20px;
+ }
+
+
+
+
