@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous|Staatliches');
+
+
+
+/* Fundo da pagina */
+body{
+		background-color: rgb(140, 140, 140);
+		background: url('images/fundo/art.gif') center no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-attachment: fixed;
+		font-family: 'Righteous'; font-size:22px;
+		margin: 0;
+	}
+/* fotinha */
+img { position: fixed;
+		left: 31%;
+		top: 00%;
+		width: 25%; }
+
+
+/* Parte que navega */
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: rgb(53, 234, 231);
+		position: fixed;
+		left: 37%;
+		top: 38%;
+		width: 27%;
+
+
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+
+	}
+
+	li a:hover:not(.active) {
+		background-color: rgb(97, 24, 66);
+	}
+
+		.active {
+		background-color: #194967;
+	}
+
+/* Seta pra direita e esquerda*/
+li {
+		list-style-type: none;
+		width: calc(100% / 4) !important;
+	}
+
+		[class*="triangle-"] { 
+		  width: 25%; 
+		  height: 0; 
+		}
+/* direita */
+.triangle-right { 
+	border-top: 28px solid transparent; 
+	border-left: 51px solid rgb(53, 234, 231); 
+	border-bottom: 40px solid transparent;
+	position: fixed;
+	left: 870px;
+	top: 38%;
+}
+/* esquerda */
+.triangle-left { 
+	border-top: 28px solid transparent; 
+	border-right: 51px solid rgb(53, 234, 231); 
+	border-bottom: 40px solid transparent; 
+	position: fixed;
+	left: 112px;
+  	top: 38%;
+}
+
+/* linha */
+    hr {
+		display: block;
+		
+		width: 365px;
+		
+		clear: both;
+		border: none;
+		border-top: 5px solid rgb(53, 234, 231);
+		position: absolute;
+		left: 505px;
+		top: 295px;
+    }
+
+    /* Barrinha de pesquisas */
+
+ 
+.box{
+  margin: 100px auto;
+  width: 300px;
+  height: 50px;
+}
+
+.container-2{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-2 input#search{
+  width: 50px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 35px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  		position: absolute;
+		left: 15px;
+		top: 325px;
+  
+ 
+  -webkit-transition: width .55s ease;
+  -moz-transition: width .55s ease;
+  -ms-transition: width .55s ease;
+  -o-transition: width .55s ease;
+  transition: width .55s ease;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-2 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-2 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+}
+
+.container-2 input#search:focus, .container-2 input#search:active{
+  outline:none;
+  width: 300px;
+}
+ 
+.container-2:hover input#search{
+width: 300px;
+}
+ 
+.container-2:hover .icon{
+  color: #93a2ad;
+}
+
+ /* Search da Barrinha icon */
+
+
+/* Imagem album */
+
+
+
+
+
+
+
+	
